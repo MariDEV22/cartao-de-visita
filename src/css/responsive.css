@@ -1,0 +1,38 @@
+@media (max-width:390px) {
+    div p {
+        max-width: 340px;
+    }
+}
+
+@media (max-width:374px) {
+    div p {
+        max-width: 280px;
+        margin: 0;
+        margin-left: 35px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width:345px) {
+    * {
+        margin: auto;
+        padding: 0%;
+        border: 0%;
+    }
+    
+    article img {
+        margin: auto;
+        max-width: 200px;
+    }
+
+    article p {
+        margin: auto;
+        max-width: 250px;
+    }
+
+    div p {
+        margin: auto;
+        margin-bottom: 10px;
+        max-width: 200px ;
+    }
+}
